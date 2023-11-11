@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900&family=Oswald:wght@400;700&display=swap');
+*{
+    margin:0px;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #8080ff;
+    text-transform: capitalize;
+}
+h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 36px;
+    margin-bottom: 100px;
+    position: absolute;
+    top:50px;
+}
+.movieToWatch{
+    padding:50px 100px;
+    border-radius: 29px;
+    background: #8080ff;
+    box-shadow:  8px 8px 15px #7272e3,
+             -8px -8px 15px #8e8eff;
+}
+h2{
+    margin-bottom: 30px;
+    font-family: 'Oswal', sans-serif;
+    font-size: 40px;
+}
+p{
+    font-family: 'Nunito Sans', sans-serif;
+    margin-bottom: 15px;
+}
+.GenresTags{
+    display: flex;
+    flex-direction: row;
+    div{
+        width: 40vw;
+        overflow: scroll;
+    }
+}
